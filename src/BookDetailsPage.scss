@@ -1,0 +1,174 @@
+
+.BookDetails {
+    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigate-back{
+    margin-left: 3vw;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: underline;
+        color: #7B6E20;
+        cursor: pointer;
+      }
+
+     .arrow-left-24px {
+        margin-bottom: -6px;
+        margin-right: 4px;
+     }
+}
+
+
+
+.book-details-tophalf {
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+    align-self: center;
+    width: 886px;
+
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #9B3930;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 135px;
+    height: 41px;  
+
+    &:hover {
+        background-color: #cc0000; 
+      }
+    
+  }
+
+.delete-button {
+    background-color: #ffffff00;
+    color: black;
+    text-decoration: underline;
+    margin-left: 20px;
+
+    &:hover {
+        background-color: #000000;
+        color: rgb(255, 255, 255);
+      }
+
+}  
+
+.add-to-my-books-button {
+    padding: 5px 10px;
+    background-color: #ffffff00;
+    color: #D08D34;
+    border-color: #D08D34;
+    border: solid;
+    border-radius: 5px;
+    width: 150px;
+    height: 41px;  
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 16px;
+
+    &:hover {
+        background-color: #D08D34;
+        color: rgb(255, 255, 255);
+        border-color: #D08D34;
+
+      }
+}
+
+.book-details-left-image img {
+    width: 413px;
+}
+
+.book-details-right-description {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+.rating-section {
+    display: inline;
+}
+
+.rating-stars {
+    display: inline;
+    margin-left: 15px;
+}
+
+.book-details-bottomhalf {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.note-pair {
+    padding: 45px; // Padding for the colored box
+    margin-bottom: 10px; // Spacing between note-pairs
+    position: relative; 
+
+    background-color: #d08c3480;
+    border-radius: 5px;
+  
+    
+  
+    .notes-page,
+    .notes-text {
+      margin-bottom: 10px; 
+    }
+
+    .notes-page {
+        font-size: 24px; //heading 6
+        margin-top: 57px;
+    }
+    
+    .notes-text {
+        font-size: 16px; //body
+        font-family:Arial, Helvetica, sans-serif;
+        margin-bottom: 29px;
+        margin-top: 20px;
+    
+    }
+  
+    .delete-button-container {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+
+
+
+  .review-pair {
+    margin-bottom: 41px; 
+  
+    .reviews-page,
+    .reviews-text {
+      margin-bottom: 10px; 
+    }
+
+    .reviews-page {
+        font-size: 24px; //heading 6
+        margin-top: 57px;
+    }
+    
+    .reviews-text {
+        font-size: 16px; //body
+        font-family:Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin-bottom: 29px;
+        margin-top: 20px;
+    
+    }
+  
+  }
+
+

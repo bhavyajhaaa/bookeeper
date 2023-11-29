@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #92798c;
+    padding: 2vw;
+
+    position:relative;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+    gap: 90px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}

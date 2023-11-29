@@ -1,0 +1,65 @@
+// Navbar.scss
+
+.navbar {
+    color: black;
+    padding: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+
+  
+    &__menu {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      cursor: pointer;
+    }
+
+    &__item {
+  
+      &:hover {
+        text-decoration: underline;
+        color: #7B6E20;
+      }
+      
+    }
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a :hover {
+    text-decoration: underline;
+    color: #7B6E20;
+  }
+  
+  .letternavbar {
+    color: black;
+    display: flex;
+    margin-bottom: 103px;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: center;
+    list-style-type: none;
+    gap: 1px;
+    text-decoration: underline;
+  
+    &__menu {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      cursor: pointer;
+    }
+
+    &__item {
+  
+      &:hover {
+        text-decoration: underline;
+        color: #7B6E20;
+      }
+      
+    }
+  }

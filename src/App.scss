@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40.49px;
+  width: 124.51px;
+  pointer-events: none;
+}
+
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #7B6E20;
+}
+
+
+body {
+  font-family: "Cormorant Garamond";
+  background-color: #ECE6E3;
+}
+
+.Books-display {
+  justify-content: center;
+  padding: 86px;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 36px;
+}
+
+h5 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h6{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.h7 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Cormorant Garamond";
+
+}
+
+p {
+  font-size: 16px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #9B3930;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 109px;
+  height: 41px;  
+}

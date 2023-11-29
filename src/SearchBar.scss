@@ -1,0 +1,78 @@
+// SearchBar.scss
+
+.search-bar-top {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 37px;
+    align-items: center;
+    font-size: 24px;
+    justify-content: center;
+
+  
+    input {
+      padding: 5px;
+      font-size: 16px;
+      color: #424240;
+      width: 800px;
+      height: 30px;
+      border-radius: 5px;
+      border-color: transparent;
+    }
+  
+    
+  }
+
+.search__alphabet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    justify-content: center;
+    list-style-type: none;
+    gap: 2px;
+    text-decoration: underline;
+}
+  
+
+// .sort-icon {
+//   margin-left: 8px;
+//   margin-bottom: -4px;
+
+// }
+
+.sort-button {
+  position: relative;
+  
+
+  .sort-icon {
+    //margin-left: 4px;
+    margin-left: 8px;
+  margin-bottom: -4px;
+
+  }
+
+
+  .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+    display: none;
+    color: black;
+    width: 135px;
+
+    div {
+      padding: 8px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #55545280;
+      }
+    }
+  }
+
+  &:hover .dropdown {
+    display: block;
+  }
+}
