@@ -68,7 +68,7 @@ button {
   padding: 5px 10px;
   font-size: 16px;
   cursor: pointer;
-  background-color: #9B3930;
+  background-color: #9B3930; //has been specified at a higher level as a primary colour - so these should be atomic and defined globally
   color: #fff;
   border: none;
   border-radius: 5px;
