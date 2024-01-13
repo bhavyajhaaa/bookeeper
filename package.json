@@ -2,7 +2,7 @@
   "name": "bookeeper",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://{bhavyajhaaa}.github.io/{bookeeper}", 
+  "homepage": "http://bhavyajhaaa.github.io/bookeeper", 
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "7.21.11",
     "@fontsource/cormorant-garamond": "^5.0.8",
