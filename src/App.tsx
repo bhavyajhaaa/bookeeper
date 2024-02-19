@@ -47,9 +47,9 @@ const App: React.FC = () => {
       { id: 22, title: '1984', author: 'George Orwell', image: '/DesktopCovers/1984.png', rating: 4.6, description:'dessssccc' },
     
     ];
-
+    
     const initialMyBooks: Book[] = [
-      { id: 1, title: 'Alice\'s Adventures in Wonderland', author: 'Lewis Carroll', image: '/DesktopCovers/Alice.png', rating: 4.3, 
+      { id: 1, title: 'Alice\'s Adventures in Wonderland', author: 'Lewis Carroll', image: './DesktopCovers/Alice.png', rating: 4.3, 
       description:'Alice\'s Adventures in Wonderland is an 1865 novel written by English author Charles Lutwidge Dodgson under the pseudonym Lewis Carroll. It tells of a girl named Alice falling through a rabbit hole into a fantasy world populated by peculiar, anthropomorphic creatures. The tale plays with logic, giving the story lasting popularity with adults as well as with children. It is considered to be one of the best examples of the literary nonsense genre. ', 
       reviews:[
           ['A Harrowing Journey of Triumph and Resentment','5','Tara Westover\'s "Educated: A Memoir" is a compelling and at times infuriating account of one woman\'s remarkable journey from a life of isolation and ignorance to one of education, enlightenment, and self-discovery. This memoir delves deep into the complexities of family, faith, and the pursuit of knowledge, leaving readers with a mix of emotions that range from anger and frustration to admiration.', 'Anonymous'],
@@ -59,9 +59,9 @@ const App: React.FC = () => {
           ['Page 185','Remember to look up the caterpillar!'], 
           ['Page 62','OMG...rabbit want'] ] 
       },      
-      { id: 2, title: 'All the Light We Cannot See', author: ' Anthony Doerr', image: '/DesktopCovers/Allthelight.png', rating: 4.5, description:'egge' },
-      { id: 3, title: 'The Alchemist', author: 'Paulo Coelho', image: '/DesktopCovers/Alchemist.png', rating: 4.6, description:'efsgs' },
-      { id: 4, title: 'Angela\'s Ashes', author: 'Frank McCourt', image: '/DesktopCovers/Angelas.png', rating: 4.4, description:'dessssccc' },
+      { id: 2, title: 'All the Light We Cannot See', author: ' Anthony Doerr', image: './../DesktopCovers/Allthelight.png', rating: 4.5, description:'egge' },
+      { id: 3, title: 'The Alchemist', author: 'Paulo Coelho', image: 'public/DesktopCovers/Alchemist.png', rating: 4.6, description:'efsgs' },
+      { id: 4, title: 'Angela\'s Ashes', author: 'Frank McCourt', image: './../public/DesktopCovers/Angelas.png', rating: 4.4, description:'dessssccc' },
       { id: 5, title: 'Animal Farm', author: 'George Orwell', image: '/DesktopCovers/Animal.png', rating: 4.7, description:'dessssccc' },
       { id: 7, title: 'Brave New World', author: 'Aldous Huxley', image: '/DesktopCovers/BNW.png', rating: 4.6, description:'dessssccc' },
       { id: 8, title: 'The Brothers Karamazov', author: 'Fyodor Dostoevsky', image: '/DesktopCovers/BrothersK.png', rating: 4.6, description:'dessssccc' },
@@ -94,7 +94,7 @@ const App: React.FC = () => {
     //----add and delete----
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Navbar title="BooKeeper"/>
 
